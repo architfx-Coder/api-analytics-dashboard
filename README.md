@@ -1,4 +1,4 @@
-# 📡 API-Integrated Analytics Dashboard
+#  API-Integrated Analytics Dashboard
 
 > **A live, multi-source analytics dashboard that auto-refreshes data from 3+ public APIs — zero manual data entry.**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Business analysts waste hours every week copying data from multiple sources into spreadsheets — news sites, financial data portals, economic databases — before any analysis even begins. By the time a report is ready, the data is already stale.
 
@@ -20,7 +20,7 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 1. Connect to **3+ real-world public APIs** and unify their data in a single interface
 2. Apply **real-time analytics** logic (aggregations, trend detection, alerting)
@@ -30,7 +30,7 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 🔌 Data Sources (APIs Integrated)
+##  Data Sources (APIs Integrated)
 
 | API | Data Type | Refresh Rate | Use in Dashboard |
 |-----|-----------|-------------|-----------------|
@@ -40,11 +40,11 @@ Business analysts waste hours every week copying data from multiple sources into
 | **Open Exchange Rates** | Currency exchange rates | Real-time | FX rate table |
 | **REST Countries API** | Country metadata | Static | Geo context labels |
 
-> 💡 *All APIs use free tiers — no paid subscription required to run this project.*
+>  *All APIs use free tiers — no paid subscription required to run this project.*
 
 ---
 
-## 🖥️ Dashboard Panels
+##  Dashboard Panels
 
 ### Panel 1 — Market Overview
 - Live price cards: selected tickers with % change (daily / weekly)
@@ -69,7 +69,7 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Step 1 — API Integration Layer
 - Built a modular `api_client.py` with dedicated fetch functions per source
@@ -100,7 +100,7 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Category | Tools |
 |----------|-------|
@@ -116,7 +116,7 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. **API reliability varies significantly.** World Bank API is highly stable but slow (~2–3 seconds). Alpha Vantage free tier has rate limits (5 calls/min) — required smart caching to maintain UX.
 
@@ -128,18 +128,18 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 📊 Visualisations Included
+##  Visualisations Included
 
-- 📈 **Live Price Sparklines** — 30-day mini-charts per ticker
-- 🌡️ **FX Change Heatmap** — Major currency pairs, 7-day % change
-- 📰 **Sentiment Timeline** — Daily sentiment ratio chart
-- 🌍 **GDP Bubble Chart** — Economy size vs. growth rate
-- ☁️ **Keyword Word Cloud** — Most discussed topics in news headlines
-- 📊 **Macro Comparison Table** — With conditional cell colouring
+-  **Live Price Sparklines** — 30-day mini-charts per ticker
+-  **FX Change Heatmap** — Major currency pairs, 7-day % change
+-  **Sentiment Timeline** — Daily sentiment ratio chart
+-  **GDP Bubble Chart** — Economy size vs. growth rate
+-  **Keyword Word Cloud** — Most discussed topics in news headlines
+-  **Macro Comparison Table** — With conditional cell colouring
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 | Stakeholder | Value Delivered |
 |-------------|----------------|
@@ -152,7 +152,7 @@ Business analysts waste hours every week copying data from multiple sources into
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 api-analytics-dashboard/
@@ -183,7 +183,7 @@ api-analytics-dashboard/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 git clone https://github.com/yourusername/api-analytics-dashboard.git
@@ -201,7 +201,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] **Alert System** — Email/Slack notifications when a macro indicator or price crosses a threshold
 - [ ] **Database Layer** — Store fetched data in SQLite for historical backtesting
